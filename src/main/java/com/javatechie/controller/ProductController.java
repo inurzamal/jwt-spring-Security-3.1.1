@@ -29,7 +29,7 @@ public class ProductController {
 
     @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome this endpoint is not secure";
+        return "Welcome, this endpoint is not secure";
     }
 
     @PostMapping("/new")
